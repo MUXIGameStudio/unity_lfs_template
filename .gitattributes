@@ -1,3 +1,6 @@
+#Git Attributes designed for LFS in Unity 2019.3+
+
+#Sets end-of-line normalization for text files
 * text=auto
 
 # Unity files
