@@ -74,12 +74,14 @@ crashlytics-build.properties
 /[Pp]rojectSettings/EditorBuildSettings.asset
 /[Pp]rojectSettings/QualitySettings.asset
 
-# Unity Lighting Data
+# Unity Lighting & Reflection Data 
 *LightingData.asset
 *LightingData.asset.meta
-*Lightmap-0_comp_dir.png
-*Lightmap-0_comp_dir.png.meta
-*Lightmap-0_comp_light.exr
-*Lightmap-0_comp_light.exr.meta
-*Lightmap-0_comp_shadowmask.png
-*Lightmap-0_comp_shadowmask.png.meta
+*Lightmap-*_comp_dir.png
+*Lightmap-*_comp_dir.png.meta
+*Lightmap-*_comp_light.exr
+*Lightmap-*_comp_light.exr.meta
+*Lightmap-*_comp_shadowmask.png
+*Lightmap-*_comp_shadowmask.png.meta
+ReflectionProbe-*.exr
+ReflectionProbe-*.exr.meta
