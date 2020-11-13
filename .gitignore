@@ -75,13 +75,25 @@ crashlytics-build.properties
 /[Pp]rojectSettings/QualitySettings.asset
 
 # Unity Lighting & Reflection Data 
-LightingData.asset
-LightingData.asset.meta
-Lightmap-*_comp_dir.png
-Lightmap-*_comp_dir.png.meta
-Lightmap-*_comp_light.exr
-Lightmap-*_comp_light.exr.meta
-Lightmap-*_comp_shadowmask.png
-Lightmap-*_comp_shadowmask.png.meta
-ReflectionProbe-*.exr
-ReflectionProbe-*.exr.meta
+/[Aa]ssets/*/LightingData.asset
+/[Aa]ssets/*/LightingData.asset.meta
+/[Aa]ssets/*/Lightmap-*_comp_dir.png
+/[Aa]ssets/*/Lightmap-*_comp_dir.png.meta
+/[Aa]ssets/*/Lightmap-*_comp_light.exr
+/[Aa]ssets/*/Lightmap-*_comp_light.exr.meta
+/[Aa]ssets/*/Lightmap-*_comp_shadowmask.png
+/[Aa]ssets/*/Lightmap-*_comp_shadowmask.png.meta
+/[Aa]ssets/*/ReflectionProbe-*.exr
+/[Aa]ssets/*/ReflectionProbe-*.exr.meta
+
+# HDRP Settings
+/[Pp]rojectSettings/HDRPProjectSettings.asset
+
+# Probuilder Settings
+/[Pp]rojectSettings/Packages/com.unity.probuilder/Settings.json
+
+# FMOD Plugin
+/[Aa]ssets/*/FMOD/
+
+# Channel Texture Packer
+/[Aa]ssets/Plugins/Packer
