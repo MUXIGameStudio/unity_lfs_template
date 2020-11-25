@@ -51,6 +51,7 @@
 *.it filter=lfs diff=lfs merge=lfs lockable -text 
 *.s3m filter=lfs diff=lfs merge=lfs lockable -text 
 *.xm filter=lfs diff=lfs merge=lfs lockable -text 
+*.flac filter=lfs diff=lfs merge=lfs lockable -text 
 
 # Video formats
 *.mov filter=lfs diff=lfs merge=lfs lockable -text 
